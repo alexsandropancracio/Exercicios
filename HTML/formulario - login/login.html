@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        
+        body{
+            height: 1500px;
+        }
+
+        #formulario{
+            position: relative;
+            top: 150px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .config{
+            background-image: linear-gradient(rgb(66, 66, 66), black);
+            color: white;
+            box-shadow:  0px 10px 15px rgb(0,0,0,0.5);
+            border-radius: 10px;
+            width: 270px;
+            height: 300px;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 10pt;
+            z-index: 1;
+        }
+
+        .cadastro{
+            display: block;
+            position: relative;
+            top: -4px;
+        }
+
+        .texto{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 5px;
+            font-size: 30px;
+        }
+
+        .texto1{
+            display: block;
+            position: relative;
+            top: 23px;
+        }
+
+        .nome{
+            display: block;
+            position: relative;
+            top: 30px;
+            width: 260px;
+            height: 23px;
+        }
+
+
+        .texto2{
+            display: block;
+            position: relative;
+            top: 47px;
+        }
+
+        .senha{
+            display: block;
+            position: relative;
+            top: 52px;
+            width: 260px;
+            height: 23px;
+        }
+        
+        .texto3{
+            display: block;
+            position: relative;
+            top: 70px;
+        }
+
+
+        .email{
+            display: block;
+            position: relative;
+            top: 75px; 
+            width: 260px;
+            height: 23px;
+        }
+
+        .entrar{
+            display: block;
+            position: relative;
+            top: 90px;
+            cursor: pointer;
+        }
+
+
+        .texto4{
+            position: relative; 
+            top: 84px; 
+            left: 18px;
+        }
+
+
+        .checkbox{
+            display: block; 
+            position: relative;
+            top: 100px; 
+            left: -5px;
+            cursor: pointer;
+        }
+
+       .background{
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            background: black;
+        }
+
+    </style>
+</head>
+<body>
+    <img class="background" src="ct.jpg" alt="cidade">
+    <nav>
+        <div id="formulario">
+        <div class="config">
+            <form action="cadastro" method="post" class="cadastro">
+                <span class="texto">Login</span>
+                <span class="texto1">Nome:</span>
+                <input type="text" name="nome" class="nome" required autofocus autocomplete="on" placeholder="Digite seu nome.">
+                <span class="texto2">Senha:</span>
+                <input type="password" name="senha" class="senha" placeholder="Digite sua senha.">
+                <span class="texto3">E-mail:</span> 
+                <input type="email" name="E-mail"  class="email" required autocomplete="on" placeholder="Digite seu e-mail.">
+                <input type="submit" name="botao" value="Entrar" class="entrar">
+                <input type="checkbox" name="botao" value="verificar" class="checkbox">
+                <span class="texto4">Lembre-me</span>
+            </form>
+        </div>
+        </div>
+    </nav>
+</body>
+</html>

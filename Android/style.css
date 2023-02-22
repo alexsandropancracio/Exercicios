@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+}
+
+@font-face{
+    font-family: "Euclide";
+    src: url("fonts/EuclidCircularA-Medium.woff") format("woff"), 
+    url("fonts/EuclidCircularA-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#itens{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+li > a{
+    position: relative;
+    top: 25px;
+    left: 620px;
+    font-family: "Euclide";
+    text-decoration: none;
+    margin-right: 40px;
+    color: #073042;
+    float: left;
+    
+}
+
+li > a:hover{
+    color: #267E69;
+    transition: 0.7s;
+}
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 6%;
+    width: 105px;
+
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-height: 850px;
+}
+
+.interface > h1{
+    font-family: "Euclide";
+    font-weight: 900;
+    font-size: 70px;
+    text-align: justify;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.interface > p{
+    font-family: "Euclide";
+    font-size: 21px;
+    position: absolute;
+    top: 367px;
+    left: 77px;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.descubra > a{
+    font-family: "Euclide";
+    position: absolute;
+    top: 468px;
+    left: 127px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #073042;
+    color: white;
+    height: 25px;
+    width: 226px;
+    padding: 15px;
+    height: 25px;
+    border-radius: 40px;
+}
+
+.descubra > a:hover{
+    background-color: #6DD58C;
+    color: #073042;
+    transition: 0.5s;
+}
+
+.celular{
+    position: absolute;
+    top: 108px;
+    left: 651px;
+    display: block;
+    
+}
+
+.lupa{
+    position: absolute;
+    top: 23px;
+    left: 1256px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#burguer{
+    background-color: #073042;
+    color: #6DD58C;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 66px;
+}
+
+#burguer:hover{
+    background-color: #6DD58C;
+    color: #073042;
+    cursor: pointer;
+}

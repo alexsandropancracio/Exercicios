@@ -1,0 +1,150 @@
+@media (max-width: 600px) 
+{
+    .navegando p{
+        display: none;
+    }
+}
+
+.parte1 img{
+    width: 50%;
+    height: 50%;
+}
+
+#interface{
+    max-width: 700px;
+    width: 90vw;
+    margin: auto;
+    padding: 0px;
+    height: 1500px;
+    background-color: white;
+}
+
+#menu{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu > img{
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.navegando{
+    margin: -10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 35px;
+    width: 110%;
+    height: 80px;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.205), rgba(77, 77, 77, 0.034));
+    margin-bottom: 30px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.13);
+    border: 1px solid rgba(128, 128, 128, 0.11);
+    font-family: 'Cousine', monospace;
+}
+
+.navegando p{
+    position: relative;
+    right: 25px;
+}
+
+.navegando p:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 10px;
+    margin: -10px;
+    padding: 10px;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.foto > img{
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.068);
+    border: 1px solid rgba(128, 128, 128, 0.253);
+}
+
+.parte1{
+    text-align: justify;
+    font-family: 'Cousine', monospace;
+}   
+
+
+.parte1 a{
+    color: black;
+}
+
+.parte1 a:active{
+    color: rgb(161, 161, 161);
+}
+
+.parte1 span{
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+.parte1 > h1{
+    font-family: 'Fragment Mono', monospace;
+}
+
+.parte2{
+    text-align: justify;
+    font-family: 'Cousine', monospace;
+}
+
+.parte2 > h2{
+    font-family: 'Fragment Mono', monospace;
+}
+
+.parte3{
+    text-align: justify;
+    font-family: 'Cousine', monospace;
+}
+
+.parte3 > h3{
+    font-family: 'Fragment Mono', monospace;
+}
+
+.parte3 a{
+    color: black;
+}
+
+.parte3 a:active{
+    color: rgb(161, 161, 161);
+}
+
+.parte3 span{
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+.video{
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video iframe{
+    position: absolute;
+    top: 10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+footer > h2{
+    font-family: 'Fragment Mono', monospace;
+}
